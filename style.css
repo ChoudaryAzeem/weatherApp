@@ -10,8 +10,8 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
-    color: #fff;
+    /* background: linear-gradient(135deg, #00feba, #5b548a); */
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);   
     margin: 70px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
@@ -90,5 +90,13 @@ body{
     margin-top: 10px;
     display: none;
 }
+.temp{
+    color: #fff;
+}
+.city{
+    color: #fff;
 
-
+}
+.detail{
+    color: #fff;
+}
